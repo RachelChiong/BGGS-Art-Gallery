@@ -1,7 +1,13 @@
 # Brisbane Girls Grammar School (BGGS) Digital Art Gallery
+> An archive of the 2020 Young ICT Explorers Years 11-12 National Finals' winning project created by [Rachel Chiong](http://www.github.com/rachelChiong) and Josephine Clough.
+
 [![Young ICT Winning submission video](https://img.youtube.com/vi/TajKze43ADo/0.jpg)](http://www.youtube.com/watch?v=TajKze43ADo "Brisbane Girls Grammar School: Digital Art Gallery | Young ICT Explorers Final Submission")
 
-An archive of the 2020 Young ICT Explorers Years 11-12 National Finals' winning project created by [Rachel Chiong](http://www.github.com/rachelChiong) and Josephine Clough. This project was created in 2019-2020 across two digital solutions projects. The Brisbane Girls Grammar School Digital Art Gallery Project features an accessible art gallery public-facing website, built on the Athena database management system for implementation in the school's esteemed suite of websites.
+## Project Overview
+Brisbane Girls’ Grammar School has an extensive art collection that includes fine arts, ceramics, photographs and more. The school wishes to manage and enhance this growing catalogue. A dynamic online gallery would allow for both the school community and the general public to view the school’s artworks and their related information such as the artist, title, media and location. It is hoped that the online presence would provide information for research purposes and encourage future donations of artworks to the school.
+
+Following the development of the online gallery this project also proposes a dedicated web-based art collection management system that can be accessed by the art curator and facilities staff. The user interface of the management system should allow CRUD operations so that the art curator can easily create, read, update and delete artwork records entered into the database.
+
 
 The final solution needs to be run on a database implemented in AMPPS using php v7.3.
 
