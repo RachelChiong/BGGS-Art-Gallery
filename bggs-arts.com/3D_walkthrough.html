@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://rawgit.com/ngokevin/aframe-animation-component/master/dist/aframe-animation-component.min.js"></script>
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.x.x/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@4.x.x/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
+  </head>
+  <body>
+ 
+    <a-scene>
+        <a-camera position="0 1.6 0">
+            <a-entity cursor="fuse: false"  position="0 0 -1"   geometry="primitive:ring; radiusInner: 0.02; radiusOuter: 0.03"  material="color: black; shader: flat"></a-ring>
+          </a-camera>
+      <a-sky src="test.jpg" rotation="0 -130 0"></a-sky>
+
+      <a-text font="kelsonsans" value="Puy de Sancy, France" width="6" position="-2.5 0.25 -1.5"
+              rotation="0 15 0"></a-text>
+
+<a-entity class="link" geometry="primitive: plane; height: 1; width: 1"  material="shader: flat; src: #cubes-thumb">
+
+</a-entity>
+<script id="link" type="text/html">
+    <a-entity class="link"
+      geometry="primitive: plane; height: 1; width: 1"
+      material="shader: flat; src: ${thumb}"
+      sound="on: click; src: #click-sound"
+      event-set__mouseenter="scale: 1.2 1.2 1"
+      event-set__mouseleave="scale: 1 1 1"
+      event-set__click="_target: #image-360; _delay: 300; material.src: ${src}"></a-entity>
+  </script>
+        
+    </a-scene>
+   
+
+    <script>
+        function dosomething() {
+            console.log("hello world");
+        }
+    </script>
+  </body>
+</html>

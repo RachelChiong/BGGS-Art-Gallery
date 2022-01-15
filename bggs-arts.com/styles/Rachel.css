@@ -1,0 +1,414 @@
+/* Splash Header */
+    .header_banner {
+        overflow: hidden;
+        background-image: url('#splash');
+        height:30%;
+        
+    }
+    #splash{
+        filter: brightness(30%);
+    }
+    .page_title {
+        text-align: left;
+        color: white;
+        font-size: 200%;
+        font-family: "Times New Roman";
+    }
+
+    .header_banner_cont {
+        margin: 0;
+        position: relative;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+
+    .bggs_text {
+        color: white;
+        font-family: 'Times New Roman';
+        font-size: 100%;
+    }
+
+/* LOC locations CSS */
+    /* Styling of the map */
+    #loc_school_map {
+        width: 60%;
+        height: auto;
+    }
+    /* Using a grid to improve understandability */
+    .loc_grid_cont {
+        display: grid;
+        grid-template-columns: 65% 32%;
+    }
+
+    .loc_desc {
+        background-color: white;
+        font-family: 'Times New Roman';
+        height: 560px;
+        min-height: 560px;
+    }
+
+    .loc_card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    border-radius: 5px;
+    margin: 2px;
+    }
+
+    .loc_artwork_img {
+    margin-top: 10%;
+    }
+    .loc_title {
+    color: grey;
+    font-size: 16px;
+    }
+
+    .loc_search_results {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+
+    #loc_block_name {
+    font-family: 'Times New roman';
+    font-size: 30px;
+    color: RGB(0,37,84);
+    padding: 5px;
+    margin-top: 2%;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .loc_grid_cont {
+            display: block;
+        }
+
+    }
+    /* GAL Gallery search CSS */
+        /* Page layout */
+    .search_Cont {
+        width:100%;
+        height:50%;
+        margin: 2%;
+        text-align: center;
+    }
+    
+
+    .gal_layout {
+    display: grid;
+    grid-template-columns: 30% 68%;
+    column-gap: 2%;
+    }
+
+    /* Table elements CSS */
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+    }
+
+
+    th {
+    font-family: "Times New Roman";
+    font-size: 22px;
+    text-align: left;
+    border-bottom: 5px solid RGB(0,20,137);
+    color: rgb(0,20,137);
+    background-color: white;
+    }
+
+    th, td {
+    padding: 10px;
+    }
+
+    .table {
+    table-layout: auto;
+    border-spacing: 5px;
+    }
+    /*Search Input css from codpen.io */
+    .search_input {
+    font-size: 20px;
+    border: 0px;
+    outline: none;
+    padding: .7em;
+    box-shadow: 0px 1px 2px 0px #888;
+    display: inline-block;
+    padding: .8em;
+    border-radius: 6px;
+    background-color: white;
+    text-align: left;
+    }
+    .search_input[type=text] {
+    min-width: 70%;
+    -webkit-transition: width .2s ease-in-out;
+    transition: width .4s ease-in-out
+    }
+    
+    .search_input[type=submit]:hover {
+    background-color: #eee
+    }
+    .search_input[type=text] {
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    .search_input[type=text]:hover {
+    box-shadow: 0px 1px 5px 0px hsl(0, 0%, 50%);
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    padding: .55em;
+    margin-bottom: .25em
+    }
+    /* Dropdown Menu CSS from codepen.io. Was in stylus css, has been compiled to regular css */
+    .demo {
+    padding: 30px;
+    margin: 0 auto;
+    display: block;
+    max-width: 350px;
+    font-family: "Times New Roman";
+    }
+    .demo .material-input {
+    margin-top: 20px;
+    }
+    /*INPUT */
+    .material-input {
+    font-size: 14px;
+    text-align: left;
+    }
+    .material-input input,
+    .material-input .main-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+    .material-input input.focus,
+    .material-input .main-input.focus {
+    border-color: RGB(0,20,137);
+    }
+    .material-input .dropdown {
+    float: right;
+    margin-right: 2px;
+    }
+
+    .material-input .dropdown-list {
+    background: #eee;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: 30px;
+    width: 25%;
+    list-style: none;
+    margin-top: 15px;
+    z-index: 2;
+    }
+    .material-input .dropdown-list .option {
+    font-size: 12px;
+    cursor: pointer;
+    padding: 10px;
+    }
+    .material-input .dropdown-list .option:hover {
+    background: #ccc;
+    }
+    .material-input .dropdown-list .option.active {
+    background: RGB(0,20,137);
+    color: white;
+    }
+    .material-select input {
+    display: none;
+    }
+    .material-select .main-input {
+    cursor: pointer;
+    color: transparent;
+    }
+    .material-select .main-input.focus {
+    color: #000;
+    }
+    /* Source: https://stackoverflow.com/questions/24759632/highlight-selected-row-of-the-table-table-is-generated-by-php-from-mysql-databa */
+    .atr:hover {background-color: #b3c3ff;}
+
+  
+
+/* FOO Footer Container */
+footer {
+    color: white;
+}
+    .footer_container {
+        background-color:RGB(0,37,84);
+        display: grid;
+        grid-template-columns: auto, auto, auto;
+        color: white;
+        font-family: 'Times New Roman';
+        padding: 2%;
+    }
+
+    .footer_container a {
+    color: white;
+    }
+    /* Need to make this responsive eventually */
+    .img-footer-logo {
+        text-align: center;
+        width: 15%;
+        height: auto;
+    }
+
+    .grid_container li {
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    }
+
+    .grid_container li {
+    text-decoration: none;
+    }
+
+    .grid_container li:hover {
+    text-decoration: none;
+    }
+
+
+    .grid_container li:after {
+    border-bottom: 2px solid white;
+    content: "";
+    position: relative;
+        right: 100%;
+        bottom: ;
+        left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1);
+    }
+
+    .grid_container li:hover:after {
+    right: 0;
+    }
+
+
+    .grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color:RGB(0,37,84);
+    padding: 10px;
+    text-align: left;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .list-inline li {
+        display: inline-block;
+    }
+
+/* Responsitivity */
+
+/* Sign Up */
+
+.signup_grid {
+    display: grid;
+     grid-template-columns: 50% 50%;
+ }
+ @media only screen and (max-width: 800px) {
+     .signup_grid {
+         display: block;
+     }
+     }
+ 
+ 
+     .page_title {
+         text-align: left;
+         color: white;
+         font-size: 350%;
+         font-family: "Times New Roman";
+     }
+    
+     .header_banner_cont {
+         margin: 0;
+         
+ 
+     }
+ 
+     .bggs_text {
+         color: white;
+         font-family: 'Times New Roman';
+         font-size: 180%;
+     }
+ 
+     .grid-el {
+         min-height: 550px;
+     }
+ 
+     .signup_form {
+         z-index: 10;
+     }
+ 
+     #signup_header {
+         background-image: url('img/Composition_in_red.jpg');
+         background-size: contain;
+     }
+ 
+     .open-button {
+ text-decoration: underline;
+   color: rgb(0,37,84);
+   display: block;
+   border: none;
+   background: none;
+   font-size: 14px;
+ }
+ 
+ /* The popup form - hidden by default */
+ .form-popup {
+   display: none;
+   position: fixed;
+   bottom: 0;
+   right: 15px;
+   border: 3px solid #f1f1f1;
+   z-index: 9;
+ }
+ 
+ /* Add styles to the form container */
+ .form-container {
+   max-width: 300px;
+   padding: 10px;
+   background-color: white;
+ }
+ 
+ /* Full-width input fields */
+ .form-container input[type=text], .form-container input[type=password] {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   background: #f1f1f1;
+ }
+ 
+ /* When the inputs get focus, do something */
+ .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+ }
+ 
+ /* Set a style for the submit/login button */
+ .form-container .btn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   margin-bottom:10px;
+   opacity: 0.8;
+ }
+ 
+ /* Add a red background color to the cancel button */
+ .form-container .cancel {
+   background-color: red;
+ }
+ 
+ /* Add some hover effects to buttons */
+ .form-container .btn:hover, .open-button:hover {
+   opacity: 1;
+ }

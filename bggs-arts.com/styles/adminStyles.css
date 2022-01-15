@@ -1,0 +1,299 @@
+.align-mid {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+header {
+    width: calc(100% - 30px);
+    height: 100px;
+    padding: 0 5px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black;
+    border-width: 3px;
+  }
+
+  .nav-header-main {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-logo {
+    width: 70px;
+    height: auto;
+    padding-right: 20px;
+  }
+
+  .nav-header-main img {
+    height: 100%;
+  }
+
+  .nav-header-main ul {
+    height: 100%;
+  }
+
+  .nav-header-main ul li {
+    list-style: none;
+    float: left;
+    height: 100%;
+  }
+  /* Header css */
+  .nav-header-main ul li a {
+    display: block;
+    height: 100%;
+    margin-top: 30px;
+    padding: 0 10px;
+    padding-bottom: 0px;
+    border-radius: 6px;
+    line-height: 3px;
+    font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+    font-size: 18px;
+    color: #56575c;
+    text-transform: uppercase;
+  }
+
+  .header_li{
+    text-decoration: none;
+  }
+
+  .header_li:hover {
+    text-decoration: none;
+  }
+
+  .header_li{
+    text-decoration: none;
+    position: relative;
+  }
+
+  /* dashboard */
+  
+.dash_layout {
+    display: grid;
+    grid-template-columns: 23% 68%;
+    column-gap: 2%;
+    }
+
+
+  
+.dashnav {
+  margin-left: 5%;
+  margin-right: 5%;
+  border: grey;
+  border-radius: 3;
+  border-width: 2px;
+} 
+.dashnav_ul {
+  list-style-type: none;
+  text-align: center;
+}
+  .dashnav_li {
+    list-style-type: none;
+    padding: 2%;
+    font-size: 18px ;
+    color: black;
+  }
+
+  .dashnav_li:hover {
+  
+    width: 100%;
+    background-color: rgb(86,87,92);
+    color: white;
+    margin-right: 2%;
+    
+  }
+
+
+
+  .dashnav_li a {
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+    padding-left: 40%;
+    padding-right: 40%;
+  }
+
+  .dashnav_li a:hover {
+    color: white;
+  }
+
+  .dashnav_ul button {
+    width: 100%;
+   
+  }
+
+  .dashnav_ul button:hover {
+    background-color: rgb(86,87,92);
+    color: white;
+    width: 100%;
+  }
+
+  .image-container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-container:hover .image {
+    opacity: 0.3;
+}
+
+.image-container:hover .middle {
+    opacity: 1;
+}
+
+.topbar-ul ul {
+  display: inline-block;
+}
+
+.topbar-li {
+  list-style-type: none;
+}
+
+
+.pagination ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination a{
+  display: inline-block;
+  padding: 10px 18px;
+  color: #222;
+}
+
+
+/* ONE */
+
+.p1 a{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  text-align: center;
+}
+
+.p1 a.is-active{
+  background-color: rgb(0,20,137);
+  border-radius: 100%;
+  color: #fff;
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+.artworkformgrid {
+  display: grid;
+  grid-template-columns: 35% 30% 35%;
+}
+
+
+.readgrid {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  width: 85%;
+  padding: 2% 5% 0% 5%;
+  border-style: dashed;
+  border-color: rgb(0,20,137);
+  border-radius: 10px;
+margin-right: 10%;
+margin-left: 7%;
+  
+}
+
+.readgridel {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-size: 16px;
+}
+
+.glyphicon {
+  font-size: 20px; padding: 2px;
+}
+
+.ret_img {
+  width: 50px;
+  height: auto;
+}
+
+.topnavGrid {
+  display: grid;
+grid-template-columns: 15% 70% 5% 10%;
+padding-bottom: 1%;
+}
+
+.topnavGridEl {
+grid-row-start: 1;
+grid-row-end: 3;
+}
+
+.p1 {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .header_cont {
+    margin-top: -200px;
+  }
+    .gal_layout {
+        display: block;
+        max-width: 100%;
+    }
+
+  #gal_table th {
+    font-size: 10px;
+    
+  }
+
+  th {
+    font-size: 18px;
+  }
+  td {
+    padding: 3px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  #resText {
+    font-size: 10px;
+  }
+
+/*... */
+    .ret_img {
+      height: 50px;
+      width: auto;
+    }
+    .page_title {
+      font-size: 200%;
+      text-align: center;
+    }
+    .bggs_text {
+      font-size: 100%;
+    }
+} 

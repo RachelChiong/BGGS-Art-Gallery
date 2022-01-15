@@ -1,0 +1,240 @@
+/* header CSS (Josie)*/
+header {
+    width: calc(100% - 30px);
+    height: 100px;
+    padding: 0 5px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-header-main {
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-logo {
+    width: 70px;
+    height: auto;
+    padding-right: 20px;
+  }
+
+  .nav-header-main img {
+    height: 100%;
+  }
+
+  .nav-header-main ul {
+    height: 100%;
+  }
+
+  .nav-header-main ul li {
+    list-style: none;
+    float: left;
+    height: 100%;
+  }
+  /* Header css */
+  .nav-header-main ul li a {
+    display: block;
+    height: 100%;
+    margin-top: 30px;
+    padding: 0 10px;
+    padding-bottom: 0px;
+    border-radius: 6px;
+    line-height: 3px;
+    font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+    font-size: 18px;
+    color: #56575c;
+    text-transform: uppercase;
+  }
+
+  .header_li{
+    text-decoration: none;
+  }
+
+  .header_li:hover {
+    text-decoration: none;
+  }
+
+  .header_li{
+    text-decoration: none;
+    position: relative;
+  }
+
+  .header_li:after {
+    border-top: 2px solid #001489;
+    content: "";
+    position: absolute;
+      right: 100%;
+      bottom: 1em;
+      left: 0;
+    transition: right .4s cubic-bezier(0,.5,0,1);
+  }
+
+  .header_li:hover:after {
+    right: 0;
+  }
+
+
+  .header-login {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-login form {
+    height: 100%;
+  }
+
+  .header-login form input {
+    height: 40px;
+    width: 160px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #001489;
+    float: left;
+    margin-left: 8px;
+    margin-top: 0;
+    font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
+  }
+
+  .header-login form button {
+    height: 40px;
+    width: 106px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+    border: 2px solid #001489;
+    background-color: #FFFFFF;
+    margin-left: 8px;
+    font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+    font-size: 13px;
+    color:  #56575c;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .header-signup {
+    height: 100%;
+    width: 70px;
+    padding: 0 6px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 36px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+.login-status {
+  text-align: center;
+  font-size: 26px;
+  font-family: arial;
+  color: #111;
+}
+
+/* Index page */
+.main-school{
+  height: 744px;
+  width: 800px;
+  margin-top: auto;
+  z-index: -1;
+  }
+
+/*index*/
+.h-title{
+  color: #000000;
+  font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+  font-size: 30px;
+  z-index:1;
+  position: relative;
+  margin-left: 10px;
+  margin-top: -75%;
+  }
+  
+  .h-subtitle{
+  font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+  color: #000000;
+  font-size: 60px;
+  z-index: 1;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+  
+  }
+  
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: auto;
+    border-width: 2.5px;
+    background-color: #000000;
+    color: #000000;
+    border-color: #000000;
+    z-index: 2;
+    position: relative;
+    width: 500px;
+  } 
+  
+  .about{
+    font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+    color: #000000;
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+    margin-top: 500px;
+  }
+  
+  .featured{
+    font-family: baskerville-urw,Georgia,"Times New Roman",Times,serif;
+    color: #000000;
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+    margin-top: 40px;
+  }
+
+  .page_title_b {
+        text-align: left;
+        color: black;
+        font-size: 350%;
+        font-family: "Times New Roman";
+    }
+   
+    .title_cont {
+        margin: 0;
+        position: relative;
+        margin-left: 20px;
+        transform: translate();
+
+    }
+
+    .bggs_text_b {
+        color: black;
+        font-family: 'Times New Roman';
+        font-size: 180%;
+    }
+
+    .main-school{
+        overflow: hidden;
+        width: 100%;
+        background-image: url('#school-img');
+        height:80%;
+        
+    }
