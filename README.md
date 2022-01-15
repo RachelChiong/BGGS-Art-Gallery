@@ -5,7 +5,7 @@ An archive of the 2019 Young ICT Explorers Years 11-12 National Finals' winning 
 
 The final solution needs to be run on a database implemented in AMPPS using php v7.3.
 
-## Libraries Utilised
+## Libraries Used
 The BGGS Art Gallery system utilised several different libraries:
 - _H5P_: Used to generate the 360&#176; Art Gallery image
 - _Google Maps API_: Used to display locations
@@ -13,8 +13,11 @@ The BGGS Art Gallery system utilised several different libraries:
 - _Bootstrap_: Styles for the _Athena_ administration panel
 - _MeekroDB_: Used to simplify and secure SQL queries
 
-
 ## Quick Links
 - See the project video [here](http://www.youtube.com/watch?v=TajKze43ADo)
 - Read the project documentation [here](https://github.com/RachelChiong/BGGS-Art-Gallery/blob/main/DOCUMENTATION%20BGGS-Digital-Art-Gallery.pdf)
 
+## Project Mentions
+- [_Peter Andrew_: Chief Operating Officer, SAP Australia & NZ](https://www.linkedin.com/posts/pete-andrew-b10135_innovation-yicte-activity-6772033474028290048-dBsq)
+- [_Maggie Golawska-Loye_: Head of Curriculum Development and Digital Technology Studies, Brisbane Girls Grammar School](https://www.bggs.qld.edu.au/news/academic/technologies/bggs-students-win-young-ict-explorers-competition/)
+- [Young ICT Explorers Explorers 2020 National Final Awards](https://youtu.be/UZ6v4DGX-gI?t=684)
