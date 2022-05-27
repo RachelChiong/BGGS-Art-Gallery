@@ -1,5 +1,5 @@
 # Brisbane Girls Grammar School (BGGS) Digital Art Gallery
-> An archive of the 2020 Young ICT Explorers Years 11-12 National Finals' winning project created by [Rachel Chiong](http://www.github.com/rachelChiong) and Josephine Clough.
+> An archive of the 2020 Young ICT Explorers Years 11-12 National Finals' winning project created by [Rachel Chiong](http://www.github.com/rachelChiong) and [Josephine Clough](https://github.com/josephineclough).
 
 [![Young ICT Winning submission video](https://img.youtube.com/vi/TajKze43ADo/0.jpg)](http://www.youtube.com/watch?v=TajKze43ADo "Brisbane Girls Grammar School: Digital Art Gallery | Young ICT Explorers Final Submission")
 
